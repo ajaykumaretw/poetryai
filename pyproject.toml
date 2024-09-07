@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "poetry-tips"
+version = "0.2.0"
+description = ""
+authors = ["Ajay Kumar <ajayetw2009.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^8.3.2"
+requests = "^2.12.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
